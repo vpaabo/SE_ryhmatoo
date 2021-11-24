@@ -1,16 +1,24 @@
 h1{
     text-align: center;
     font-style: italic;
-    font-size: 13;
+    font-size: 40px;
     color: black;
+    background-color: wheat;
+    border-radius: 40px;
 }
 
 img{
+    border-radius: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 184px;
     height: 216px;
+    border: 5px solid wheat;
+}
+
+img:hover{
+    border: 5px solid goldenrod;
 }
 
 button{
@@ -28,8 +36,8 @@ p
 }
 
 .column {
-    float: left;
-    width: 32%;
+    float: right;
+    width: 25%;
     padding: 5px;
 }
 
@@ -37,4 +45,47 @@ p
     content: "";
     clear: both;
     display: table;
+}
+
+td{
+    text-align: center;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    width: 33.33%;
+    font-family: 'Brush Script MT';
+    font-size: 25px;
+    background-color: wheat;
+    border: 3px solid goldenrod;
+}
+
+th{
+    border: 3px solid wheat;
+    border-radius: 10px;
+    font-family: 'Brush Script MT';
+    font-size: 35px;
+    background-color: goldenrod;
+}
+
+button{
+    background-color: wheat;
+    border: none;
+    color: black;
+    padding: 10px 128px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Arial';
+}
+
+button:hover{
+    background-color: goldenrod;
+    color: white;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 33.33%;
+    padding: 5px;
 }
