@@ -1,3 +1,47 @@
 body {
     background-color: hsl(145, 70%, 65%);
 }
+
+img{
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+    color: black;
+    background-color: wheat;
+    border-radius: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    border: 1px;
+    border: solid wheat;
+    background-color: wheat;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+}
