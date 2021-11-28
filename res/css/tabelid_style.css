@@ -1,0 +1,14 @@
+button{
+    background-color: wheat;
+    border: none;
+    color: black;
+    padding: 5px 128px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Arial';
+}
+
+button:hover{
+    background-color: goldenrod;
+    color: white;
+}
