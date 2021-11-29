@@ -19,7 +19,7 @@ tr > th{
     border-radius: 10px;
     width: 20%;
     font-family: 'Brush Script MT';
-    font-size: 15px;
+    font-size: 20px;
     background-color: wheat;
     border: 3px solid goldenrod;
 }
@@ -30,7 +30,7 @@ tr > td{
     border-radius: 10px;
     width: 20%;
     font-family: 'Brush Script MT';
-    font-size: 25px;
+    font-size: 20px;
     background-color: wheat;
     border: 3px solid goldenrod;
 }
