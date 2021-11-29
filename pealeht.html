@@ -10,48 +10,55 @@
 </head>
 <body>
     <h1>See lehekülg tutvustab kassipoegi</h1><br>
-    <div class="row">
-        <div class="column">
-            <img src="pildid/pealehekass.png">
-        </div>
-        <div class="column">
-            <img src="pildid/pealehekass1.png">
-        </div>
-        <div class="column">
-            <img src="pildid/pealehekass2.gif">
-        </div>
-    </div>
-    <table>
-        <tr>
-            <th>Füsioloogia:</th>
-            <th>Ajalugu:</th>
-            <th>Käitumine:</th>
-        </tr>
 
-        <tr>
-            <td>&#x1F63B Kassi aju kaalub umbes 31,4 g.</td>
-            <td>&#x1F63B Kassi kodustamine sai alguse Vana-Egiptuses umbes 2000 eKr.</td>
-            <td>&#x1F63B Kassid magavad peamiselt päeval ja öösiti peavad jahti.</td>
-        </tr>
+    <section>
+        <div class="row">
+            <div class="column">
+                <img src="pildid/pealehekass.png">
+            </div>
+            <div class="column">
+                <img src="pildid/pealehekass1.png">
+            </div>
+            <div class="column">
+                <img src="pildid/pealehekass2.gif">
+            </div>
+        </div> 
+        <table>
+            <tr>
+                <th>Füsioloogia:</th>
+                <th>Ajalugu:</th>
+                <th>Käitumine:</th>
+            </tr>
+            
+            <tr>
+                <td>&#x1F63B Kassi aju kaalub umbes 31,4 g.</td>
+                <td>&#x1F63B Kassi kodustamine sai alguse Vana-Egiptuses umbes 2000 eKr.</td>
+                <td>&#x1F63B Kassid magavad peamiselt päeval ja öösiti peavad jahti.</td>
+            </tr>
+            
+            <tr>
+                <td>&#x1F63B Kassi normaalne kehatemperatuur on 38.1 °C.</td>
+                <td>&#x1F63B Vana-Egiptuses peeti kasse kui pühi loomi.</td>
+                <td>&#x1F63B Ööpäevas magab kass umbes 16 tundi, mõned võivad magada ka 20 tundi.</td>
+            </tr>
+            
+            <tr>
+                <td>&#x1F63B Kass elab tavaliselt 10-12 aastat, maksimaalselt 20 aastat.</td>
+                <td style="border: none; background-color: hsl(145, 70%, 65%);"></td>
+                <td>&#x1F63B Kassidele meeldib oma saagiga mängida.</td>
+            </tr>
+        </table>
+    </section>
 
-        <tr>
-            <td>&#x1F63B Kassi normaalne kehatemperatuur on 38.1 °C.</td>
-            <td>&#x1F63B Vana-Egiptuses peeti kasse kui pühi loomi.</td>
-            <td>&#x1F63B Ööpäevas magab kass umbes 16 tundi, mõned võivad magada ka 20 tundi.</td>
-        </tr>
+    <div class="joon"></div>
 
-        <tr>
-            <td>&#x1F63B Kass elab tavaliselt 10-12 aastat, maksimaalselt 20 aastat.</td>
-            <td style="border: none; background-color: hsl(145, 70%, 65%);"></td>
-            <td>&#x1F63B Kassidele meeldib oma saagiga mängida.</td>
-        </tr>
-    </table>
+    <nav>
+        <button onClick="redirect_tabelid()">Tabelid</button><br>
+        <br>
+        <br>
+        <button onClick="redirect_pildid()">Pildid</button>
+    </nav>
 
-    <button onClick="redirect_tabelid()">Tabelid</button><br>
-    <br>
-    <br>
-    <button onClick="redirect_pildid()">Pildid</button>
-    
     <script type="text/javascript" src="res/js/pealeht_script.js"></script>
 </body>
 </html>

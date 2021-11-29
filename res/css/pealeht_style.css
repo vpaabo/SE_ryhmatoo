@@ -21,13 +21,6 @@ img:hover{
     border: 5px solid goldenrod;
 }
 
-button{
-    position: absolute;
-    margin-top: 5px;
-    left: 50%;
-    transform: translateX(-50%)
-}
-
 p
 {
   margin:0;
@@ -88,4 +81,24 @@ button:hover{
 .column{
     flex: 33.33%;
     padding: 5px;
+}
+
+section{
+    float:right;
+    width: 70%;
+    padding: 10px;
+}
+
+nav{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.joon{
+    border-left: 3px solid wheat;
+    height: 700px;
+    position: absolute;
+    left: 30%;
 }
