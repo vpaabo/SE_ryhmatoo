@@ -85,14 +85,14 @@ button:hover{
 
 section{
     float:right;
-    width: 70%;
+    width: 78%;
     padding: 10px;
 }
 
 nav{
-    float: right;
+    float: none;
     width: 30%;
-    padding: 10px;
+    
     text-align: center;
 }
 
@@ -100,5 +100,5 @@ nav{
     border-left: 3px solid wheat;
     height: 700px;
     position: absolute;
-    left: 30%;
+    left: 22%;
 }

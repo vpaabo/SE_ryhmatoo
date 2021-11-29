@@ -1,3 +1,5 @@
+// Ei viita, sest kirjutasin selle ise
+
 // Meetod nupule, et sellele vajutades minnakse edasi tabelite lehele
 function redirect_tabelid() {
     window.location.href = "tabelid.html";
