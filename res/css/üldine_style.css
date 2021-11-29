@@ -17,6 +17,14 @@ h1{
     background-color: wheat;
     border-radius: 40px;
 }
+h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+    background-color: wheat;
+    border-radius: 40px;
+}
 
 * {
     box-sizing: border-box;
