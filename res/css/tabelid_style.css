@@ -12,3 +12,30 @@ button:hover{
     background-color: goldenrod;
     color: white;
 }
+
+tr > th{
+    text-align: center;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    width: 20%;
+    font-family: 'Brush Script MT';
+    font-size: 15px;
+    background-color: wheat;
+    border: 3px solid goldenrod;
+}
+
+tr > td{
+    text-align: center;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    width: 20%;
+    font-family: 'Brush Script MT';
+    font-size: 15px;
+    background-color: wheat;
+    border: 3px solid goldenrod;
+}
+
+table {
+    width: auto;
+    margin: auto;
+}
